@@ -10,6 +10,7 @@ class CategoryIcons {
   const CategoryIcons({
     this.recentIcon = Icons.access_time,
     this.smileyIcon = Icons.tag_faces,
+    this.peopleIcon = Icons.emoji_people,
     this.animalIcon = Icons.pets,
     this.foodIcon = Icons.fastfood,
     this.activityIcon = Icons.directions_run,
@@ -24,6 +25,9 @@ class CategoryIcons {
 
   /// Icon for [Category.SMILEYS]
   final IconData smileyIcon;
+
+  /// Icon for [Category.PEOPLE]
+  final IconData peopleIcon;
 
   /// Icon for [Category.ANIMALS]
   final IconData animalIcon;

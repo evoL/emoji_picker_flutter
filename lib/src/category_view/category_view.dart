@@ -33,6 +33,8 @@ IconData getIconForCategory(CategoryIcons categoryIcons, Category category) {
       return categoryIcons.recentIcon;
     case Category.SMILEYS:
       return categoryIcons.smileyIcon;
+    case Category.PEOPLE:
+      return categoryIcons.peopleIcon;
     case Category.ANIMALS:
       return categoryIcons.animalIcon;
     case Category.FOODS:

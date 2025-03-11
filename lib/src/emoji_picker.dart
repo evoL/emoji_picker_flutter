@@ -15,6 +15,9 @@ enum Category {
   /// Smiley emojis
   SMILEYS,
 
+  /// People emojis
+  PEOPLE,
+
   /// Animal emojis
   ANIMALS,
 
@@ -46,6 +49,8 @@ extension CategoryExtension on Category {
         return 'recent';
       case Category.SMILEYS:
         return 'smileys';
+      case Category.PEOPLE:
+        return 'people';
       case Category.ANIMALS:
         return 'animals';
       case Category.FOODS:
